@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada e Filtro</title>
+    <script src="principal.js"></script>
+</head>
+
+<body>
+    <h1>Tabuada</h1>
+    <div class="tabuada">
+        <div id="numero">
+
+            <form>
+                <label for="numero-tabuada">Insira um numero para gerar a tabuada</label>
+                <input type="number" id="numero-tabuada" oninput="tabuada()">
+            </form>
+        </div>
+
+        <div id="tabuada">
+
+        </div>
+        <h1>Filtro</h1>
+        <div id="filtro" class="filtro">
+        </div>
+        <form>
+            <label for="filtro-letra">Insira alguma letra para filtrar os times:</label>
+            <input type="text" id="filtro-letra" oninput="filtro()">
+        </form>
+
+        <ul id="times">
+            <li>Real Madrid</li>
+            <li>Barcelona</li>
+            <li>Manchester United</li>
+            <li>Liverpool</li>
+            <li>Bayern Munich</li>
+            <li>Paris Saint-Germain</li>
+            <li>Juventus</li>
+            <li>AC Milan</li>
+            <li>Chelsea</li>
+            <li>Arsenal</li>
+        </ul>
+    </div>
+</body>
+<style>
+    body {
+        background-color: rgb(255, 255, 208);
+    }
+</style>
+
+</html>
